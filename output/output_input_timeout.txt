@@ -1,0 +1,380 @@
+************************************************************************************euristica banala
+===============================BF:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:1.70
+Numarul de noduri generate:40239
+Numarul maxim de noduri la un moment dat:36616
+
+----------------
+
+===============================DF:
+===============================DFI:
+Adancime:1
+Adancime:2
+Adancime:3
+Adancime:4
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.13
+Numarul de noduri generate:3894
+Numarul maxim de noduri la un moment dat:4
+
+----------------
+
+===============================A Star neoptimizat:
+===============================A Star optimizat:
+===============================IDA Star:
+************************************************************************************euristica admisibila 1
+===============================BF:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:1.57
+Numarul de noduri generate:40239
+Numarul maxim de noduri la un moment dat:36616
+
+----------------
+
+===============================DF:
+===============================DFI:
+Adancime:1
+Adancime:2
+Adancime:3
+Adancime:4
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.15
+Numarul de noduri generate:3894
+Numarul maxim de noduri la un moment dat:4
+
+----------------
+
+===============================A Star neoptimizat:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.74
+Numarul de noduri generate:3916
+Numarul maxim de noduri la un moment dat:3127
+
+----------------
+
+===============================A Star optimizat:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 14 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 14.
+Stare frunze: id0(0,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 23.
+Stare frunze: id0(0,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 22.
+Stare frunze: id0(0,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.05
+Numarul de noduri generate:463
+Numarul maxim de noduri la un moment dat:464
+
+----------------
+
+===============================IDA Star:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.14
+Numarul de noduri generate:2046
+Numarul maxim de noduri la un moment dat:7
+
+----------------
+
+************************************************************************************euristica admisibila 2
+===============================BF:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:2.15
+Numarul de noduri generate:40239
+Numarul maxim de noduri la un moment dat:36616
+
+----------------
+
+===============================DF:
+===============================DFI:
+Adancime:1
+Adancime:2
+Adancime:3
+Adancime:4
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.15
+Numarul de noduri generate:3894
+Numarul maxim de noduri la un moment dat:4
+
+----------------
+
+===============================A Star neoptimizat:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.66
+Numarul de noduri generate:3916
+Numarul maxim de noduri la un moment dat:3127
+
+----------------
+
+===============================A Star optimizat:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 14 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 14.
+Stare frunze: id0(0,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 23.
+Stare frunze: id0(0,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 22.
+Stare frunze: id0(0,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.03
+Numarul de noduri generate:463
+Numarul maxim de noduri la un moment dat:464
+
+----------------
+
+===============================IDA Star:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.09
+Numarul de noduri generate:2046
+Numarul maxim de noduri la un moment dat:7
+
+----------------
+
+************************************************************************************euristica neadmisibila
+===============================BF:
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:1.87
+Numarul de noduri generate:40239
+Numarul maxim de noduri la un moment dat:36616
+
+----------------
+
+===============================DF:
+===============================DFI:
+Adancime:1
+Adancime:2
+Adancime:3
+Adancime:4
+Solutie:
+0)
+Broscovina se afla pe frunza initiala id0(0,0). Greutate broscuta: 1.
+
+1)
+Broscovina a mancat 6 insecte. Broscovina a sarit de la id0(0,0) la id1(0,1). Greutate broscuta: 6.
+Stare frunze: id0(8,100), id1(10,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+2)
+Broscovina a mancat 10 insecte. Broscovina a sarit de la id1(0,1) la id5(0,5). Greutate broscuta: 15.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+3)
+Broscovina a mancat 0 insecte. Broscovina a sarit de la id5(0,5) la mal. Greutate broscuta: 14.
+Stare frunze: id0(8,100), id1(0,100), id2(0,100), id3(0,100), id4(0,100), id5(0,100).
+
+Cost: 10.0
+Lungime: 4
+Timp:0.27
+Numarul de noduri generate:3894
+Numarul maxim de noduri la un moment dat:4
+
+----------------
+
+===============================A Star neoptimizat:
+===============================A Star optimizat:
+===============================IDA Star:
