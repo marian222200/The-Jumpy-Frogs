@@ -1,4 +1,4 @@
-# The-Funny-Frogs
+# The-Jumpy-Frogs
 
 An application that uses artificial intelligence to help the frogs that are on lily pads on a round lake to get to the shore.
 
