@@ -40,7 +40,7 @@ The algorithms use different [heuristics](https://www.techopedia.com/definition/
 
 <details>
   <summary>
-    Non-admissible heuristic
+    [Non-admissible heuristic](https://en.wikipedia.org/wiki/Admissible_heuristic "What is an admissible heuristic?")
   </summary>
   The [Non-admissible heuristic](https://en.wikipedia.org/wiki/Admissible_heuristic "What is an admissible heuristic?") is just for test purposes. It is supposed to get longer times on the search algorithms.
 </details>
