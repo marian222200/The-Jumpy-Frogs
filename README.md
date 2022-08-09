@@ -47,30 +47,24 @@ The algorithms use different [heuristics](https://www.techopedia.com/definition/
   This heuristic is just for test purposes. It returns, for a part of the frogs, a result that is greater than the actual distance cost. It is supposed to get longer times on the search algorithms.
 </details>
 
+## How to run the application
+
+The application can be run in cmd, as it follows:
+
+![lma](https://user-images.githubusercontent.com/30511514/183627121-7f90682c-b71b-44ee-9749-a129913bb107.png)
+
+Where "input" is a folder with that name inside the project directory. In the input folder there are the files that give the data of the frogs and the lake. In the "output" folder the algorthm creates an output file for each input file ("output_" + name of file).
+After the folder names, there are provided 2 numbers, the first one being the number of solutions required for the problem and the second one is the maximum time each algorithm has to run.
+
 ## Input example:
 
 🔹 The text inside the input files follows this template
+
 ![image](https://user-images.githubusercontent.com/30511514/183637948-bb9b2cc8-836e-485c-821a-4ec9af4458df.png)
 
 🔹 Input example
 
-7
-Broscovina 5 id1 Mormolocel 3 id12
-id0 1 5 3 5
-id1 0 0 0 5
-id2 -1 1 3 8
-id3 0 2 0 7
-id4 2 2 3 10
-id5 3 0 1 5
-id6 -3 1 1 6
-id7 -4 1 3 7
-id8 -4 0 1 7
-id9 -5 0 2 8
-id10 -3 -3 4 12
-id11 1 -3 3 6
-id12 0 -2 2 5
-id13 -2 -1 3 9
-id14 -1 -1 7 15
+![image](https://user-images.githubusercontent.com/30511514/183638490-4c37faf3-6e2e-4bc0-b028-821acb8e068e.png)
 
 ## How to run the application
 
