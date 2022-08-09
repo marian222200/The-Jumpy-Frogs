@@ -36,6 +36,14 @@ The algorithms use different [heuristics](https://www.techopedia.com/definition/
     Second heuristic
   </summary>
   The second heuristic returns the sum of the all Euclidian distances from each frog to the shore if the frog can reach the shore in one single jump, otherwise the value of the shortest distance for the frog (regardless of weight) to the shore making 2 jumps.
+</details>
+
+<details>
+  <summary>
+    Non-admissible heuristic
+  </summary>
+  The [Non-admissible heuristic](https://en.wikipedia.org/wiki/Admissible_heuristic "What is an admissible heuristic?") is just for test purposes. It is supposed to get longer times on the search algorithms.
+</details>
 
 ## How to run the application
 
