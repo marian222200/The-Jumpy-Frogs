@@ -62,7 +62,7 @@ After the folder names, there are provided 2 numbers, the first one being the nu
 
 ![image](https://user-images.githubusercontent.com/30511514/183637948-bb9b2cc8-836e-485c-821a-4ec9af4458df.png)
 
-🔹 Input example
+🔹 Input file example
 
 ![image](https://user-images.githubusercontent.com/30511514/183638490-4c37faf3-6e2e-4bc0-b028-821acb8e068e.png)
 
