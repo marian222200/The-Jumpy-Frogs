@@ -80,6 +80,6 @@ After the folder names, there are provided 2 numbers, the first one being the nu
 
 ![image](https://user-images.githubusercontent.com/30511514/183642672-6ebb5659-f9a0-43a9-a294-636cf108bc44.png)
 
-🔹 Output example:
+🔹 Output file example:
 
 ![image](https://user-images.githubusercontent.com/30511514/183642788-c559c156-c68b-445e-ad95-1c56e67132c4.png)
