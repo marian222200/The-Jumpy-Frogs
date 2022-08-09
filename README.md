@@ -25,6 +25,14 @@ The app runs for multiple given input (lake, frogs, leaves) the result of multip
 The algorithms use different [heuristics](https://www.techopedia.com/definition/5436/heuristic "What is an heuristic?") of wich one is a [non-admissible heuristic](https://en.wikipedia.org/wiki/Admissible_heuristic "What is an admissible heuristic?") in calculating the distance from the current configuration and a solution.
 <details>
   <summary>
+    Banal heuristic
+  </summary>
+  <br>
+  This heuristic returns 1 if the current state is not a solution, 0 otherwise. It is banal because, while being admissible, it does not give any additional information of wether the state is close to being a solution or not.
+</details>
+
+<details>
+  <summary>
     First heuristic
   </summary>
   <br>
@@ -58,20 +66,20 @@ After the folder names, there are provided 2 numbers, the first one being the nu
 
 ## Input example:
 
-🔹 The text inside the input files follows this template
+🔹 The text inside the input files follows this template:
 
 ![image](https://user-images.githubusercontent.com/30511514/183637948-bb9b2cc8-836e-485c-821a-4ec9af4458df.png)
 
-🔹 Input file example
+🔹 Input file example:
 
 ![image](https://user-images.githubusercontent.com/30511514/183638490-4c37faf3-6e2e-4bc0-b028-821acb8e068e.png)
 
-## How to run the application
+## Output example:
 
-The application can be run in cmd, as it follows:
+🔹 The text inside the output files follows this template:
 
-![lma](https://user-images.githubusercontent.com/30511514/183627121-7f90682c-b71b-44ee-9749-a129913bb107.png)
+![image](https://user-images.githubusercontent.com/30511514/183642672-6ebb5659-f9a0-43a9-a294-636cf108bc44.png)
 
-Where "input" is a folder with that name inside the project directory. In the input folder there are the files that give the data of the frogs and the lake. In the "output" folder the algorthm creates an output file for each input file ("output_" + name of file).
-After the folder names, there are provided 2 numbers, the first one being the number of solutions required for the problem and the second one is the maximum time each algorithm has to run.
+🔹 Output example:
 
+![image](https://user-images.githubusercontent.com/30511514/183642788-c559c156-c68b-445e-ad95-1c56e67132c4.png)
