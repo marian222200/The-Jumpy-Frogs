@@ -22,6 +22,21 @@ The app runs for multiple given input (lake, frogs, leaves) the result of multip
 
 :small_blue_diamond: [A*](https://en.wikipedia.org/wiki/A*_search_algorithm "A*")
 
+The algorithms use different [heuristics](https://www.techopedia.com/definition/5436/heuristic "What is an heuristic?") in calculating the distance from the current configuration and a solution.
+<details>
+  <summary>
+    First heuristic
+  </summary>
+  <br>
+  The first heuristic returns the sum of the all Euclidian distances from each frog to the shore.
+</details>
+
+<details>
+  <summary>
+    Second heuristic
+  </summary>
+  The second heuristic returns the sum of the all Euclidian distances from each frog to the shore if the frog can reach the shore in one single jump, otherwise the value of the shortest distance for the frog (regardless of weight) to the shore making 2 jumps.
+
 ## How to run the application
 
 The application can be run in cmd, as it follows:
@@ -30,3 +45,4 @@ The application can be run in cmd, as it follows:
 
 Where "input" is a folder with that name inside the project directory. In the input folder there are the files that give the data of the frogs and the lake. In the "output" folder the algorthm creates an output file for each input file ("output_" + name of file).
 After the folder names, there are provided 2 numbers, the first one being the number of solutions required for the problem and the second one is the maximum time each algorithm has to run.
+
