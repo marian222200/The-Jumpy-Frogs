@@ -49,13 +49,8 @@ The algorithms use different [heuristics](https://www.techopedia.com/definition/
 
 ## Input example:
 
-<details>
-  <summary>
-The text inside the input files follows this template
-  </summary>
-  <br>
+🔹 The text inside the input files follows this template
 ![image](https://user-images.githubusercontent.com/30511514/183637948-bb9b2cc8-836e-485c-821a-4ec9af4458df.png)
-</details>
 
 <details>
   <summary>
