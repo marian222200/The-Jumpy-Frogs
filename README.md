@@ -54,11 +54,7 @@ The algorithms use different [heuristics](https://www.techopedia.com/definition/
 The text inside the input files follows this template
   </summary>
   <br>
-lake_radius
-name_frog_0 weight_frog_0 id_starting_leaf_0 ... name_frog_n weight_frog_n id_starting_leaf_n
-id_leaf_0 x0 y0 nr_insects_0 max_weight_0
-...
-id_leaf_n xn yn nr_insects_n max_weight_n
+![image](https://user-images.githubusercontent.com/30511514/183637948-bb9b2cc8-836e-485c-821a-4ec9af4458df.png)
 </details>
 
 <details>
