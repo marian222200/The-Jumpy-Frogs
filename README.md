@@ -6,7 +6,7 @@ An application that uses artificial intelligence to help the frogs that are on l
 
 ## Details about the problem
 
-There are N frogs on lily pads at given coordinates at a lake. The lake is a circle with a given radius. The frogs can jump for their weight/3. Each jump the frogs loses one unit of weight. Some of the lily pads have food (insects) on them, each insect weights one unit. Each leaf has a maximum weight capacity.
+There are N frogs on lily pads at given coordinates at a lake. The lake is a circle with a given radius. The frogs can jump for their weight/3. Each jump the frogs loses one unit of weight. Some of the lily pads have food (insects) on them, each insect weights one unit. Each leaf has a maximum weight capacity. The cost of each transition is the length of all the jumps of the frogs from one state to the other. Each frog that did not reach the shore jumps once  per transition from one state to the other.
 
 ## What the app does
 
@@ -22,7 +22,7 @@ The app runs for multiple given input (lake, frogs, leaves) the result of multip
 
 :small_blue_diamond: [A*](https://en.wikipedia.org/wiki/A*_search_algorithm "A*")
 
-The algorithms use different [heuristics](https://www.techopedia.com/definition/5436/heuristic "What is an heuristic?") in calculating the distance from the current configuration and a solution.
+The algorithms use different [heuristics](https://www.techopedia.com/definition/5436/heuristic "What is an heuristic?") of wich one is a [non-admissible heuristic](https://en.wikipedia.org/wiki/Admissible_heuristic "What is an admissible heuristic?") in calculating the distance from the current configuration and a solution.
 <details>
   <summary>
     First heuristic
@@ -35,14 +35,56 @@ The algorithms use different [heuristics](https://www.techopedia.com/definition/
   <summary>
     Second heuristic
   </summary>
+  <br>
   The second heuristic returns the sum of the all Euclidian distances from each frog to the shore if the frog can reach the shore in one single jump, otherwise the value of the shortest distance for the frog (regardless of weight) to the shore making 2 jumps.
 </details>
 
 <details>
   <summary>
-    [Non-admissible heuristic](https://en.wikipedia.org/wiki/Admissible_heuristic "What is an admissible heuristic?")
+    Non-admissible heuristic
   </summary>
-  The [Non-admissible heuristic](https://en.wikipedia.org/wiki/Admissible_heuristic "What is an admissible heuristic?") is just for test purposes. It is supposed to get longer times on the search algorithms.
+  <br>
+  This heuristic is just for test purposes. It returns, for a part of the frogs, a result that is greater than the actual distance cost. It is supposed to get longer times on the search algorithms.
+</details>
+
+## Input example:
+
+<details>
+  <summary>
+The text inside the input files follows this template
+  </summary>
+  <br>
+lake_radius
+name_frog_0 weight_frog_0 id_starting_leaf_0 ... name_frog_n weight_frog_n id_starting_leaf_n
+id_leaf_0 x0 y0 nr_insects_0 max_weight_0
+...
+id_leaf_n xn yn nr_insects_n max_weight_n
+</details>
+
+<details>
+  <summary>
+Input example
+  </summary>
+  <br>
+  
+7
+Broscovina 5 id1 Mormolocel 3 id12
+id0 1 5 3 5
+id1 0 0 0 5
+id2 -1 1 3 8
+id3 0 2 0 7
+id4 2 2 3 10
+id5 3 0 1 5
+id6 -3 1 1 6
+id7 -4 1 3 7
+id8 -4 0 1 7
+id9 -5 0 2 8
+id10 -3 -3 4 12
+id11 1 -3 3 6
+id12 0 -2 2 5
+id13 -2 -1 3 9
+id14 -1 -1 7 15
+
 </details>
 
 ## How to run the application
