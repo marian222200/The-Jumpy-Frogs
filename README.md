@@ -52,12 +52,8 @@ The algorithms use different [heuristics](https://www.techopedia.com/definition/
 🔹 The text inside the input files follows this template
 ![image](https://user-images.githubusercontent.com/30511514/183637948-bb9b2cc8-836e-485c-821a-4ec9af4458df.png)
 
-<details>
-  <summary>
-Input example
-  </summary>
-  <br>
-  
+🔹 Input example
+
 7
 Broscovina 5 id1 Mormolocel 3 id12
 id0 1 5 3 5
@@ -75,8 +71,6 @@ id11 1 -3 3 6
 id12 0 -2 2 5
 id13 -2 -1 3 9
 id14 -1 -1 7 15
-
-</details>
 
 ## How to run the application
 
